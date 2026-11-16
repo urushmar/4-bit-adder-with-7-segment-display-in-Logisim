@@ -43,7 +43,5 @@ The decoder is designed for digits 0–9, so sums from 10 to 15 show undefined p
 ## Running on hardware
 The circuit was also implemented on a Digilent Basys 3 FPGA board (Xilinx Artix-7). Logisim-evolution generated the HDL and the inputs were mapped to the board's slide switches, with the result shown on its 7-segment display.
 
-<img src="..." alt="running on Basys 3" />
-
 ## How to run
 Open 4bit-adder-7segment.circ in Logisim-evolution (v3.9.0). bonus is the main circuit. Use the Poke tool to toggle the input pins and watch the display
